@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petition Management System - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo" class="logo-img">
+            <span>Petition Service Portal</span>
+        </div>
+        <div class="user-profile">
+            <span id="user-name">User Name</span>
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="apply.html">Apply Petition</a></li>
+            <li><a href="track.html">Track Status</a></li>
+            <li><a href="previous.html">My Petitions</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="settings.html">Settings</a></li>
+            <li><a href="complaints.html">Complaints</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <section class="section">
+            <h2>Petitions</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-file-alt"></i></div>
+                    <h3>Apply Petition</h3>
+                    <p>File a new petition for yourself or others to address your grievances.</p>
+                    <a href="apply.html" class="card-btn">Apply Now <i class="fas fa-arrow-right"></i></a>
+                    <div class="card-links"><a href="#">Guidelines <i class="fas fa-book"></i></a></div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-search"></i></div>
+                    <h3>Track Status</h3>
+                    <p>Check the status of your submitted petitions using the Petition ID.</p>
+                    <a href="track.html" class="card-btn">Track Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-history"></i></div>
+                    <h3>My Petitions</h3>
+                    <p>View a list of all your previous petitions and their statuses.</p>
+                    <a href="previous.html" class="card-btn">View Petitions <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Services</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-exclamation-circle"></i></div>
+                    <h3>Register Complaint</h3>
+                    <p>Share feedback or report issues faced on the portal.</p>
+                    <a href="complaints.html" class="card-btn">Submit Complaint <i class="fas fa-arrow-right"></i></a>
+                    <div class="card-links"><a href="#">Chatbot Support <i class="fas fa-robot"></i></a></div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-question-circle"></i></div>
+                    <h3>FAQ</h3>
+                    <p>Find answers to common questions about using the portal.</p>
+                    <a href="faq.html" class="card-btn">Explore FAQ <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-info-circle"></i></div>
+                    <h3>About</h3>
+                    <p>Learn more about the portal, its guidelines, and how it works.</p>
+                    <a href="about.html" class="card-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-cog"></i></div>
+                    <h3>Settings</h3>
+                    <p>Manage your profile, notifications, and theme preferences.</p>
+                    <a href="settings.html" class="card-btn">Go to Settings <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="home.js"></script>
+</body>
+</html>
